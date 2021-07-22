@@ -1,0 +1,206 @@
+"Bulk update",image_target_id,ID,"Asset name","Asset type",Flags,Parents,Group,Location,Status
+,,200,"Quinta Vale da Lama",Land,,,,,Active
+,,168,18U,Land,,"Quinta Vale da Lama",,,Active
+,,169,23V,Land,,"Quinta Vale da Lama",,,Active
+,,170,19U,Land,,"Quinta Vale da Lama",,,Active
+,,171,20U,Land,,"Quinta Vale da Lama",,,Active
+,,172,23U,Land,,"Quinta Vale da Lama",,,Active
+,,173,28V,Land,,"Quinta Vale da Lama",,,Active
+,,174,29Va,Land,,"Quinta Vale da Lama",,,Active
+,,175,29Vb,Land,,"Quinta Vale da Lama",,,Active
+,,176,30V,Land,,"Quinta Vale da Lama",,,Active
+,,177,31V,Land,,"Quinta Vale da Lama",,,Active
+,,178,RedeAgricolaNacional,Land,,"Quinta Vale da Lama",,,Active
+,,179,RedeEcologicoNacional,Land,,"Quinta Vale da Lama",,,Active
+,,180,RedeNatura2000,Land,,"Quinta Vale da Lama",,,Active
+,,181,OOT-OrangeOrchardTerraces,Land,,23V,,,Active
+,,182,OOT-East,Land,"Flags
+          
+              Monitor",OOT-OrangeOrchardTerraces,,,Active
+,,183,OOT-West,Land,,OOT-OrangeOrchardTerraces,,,Active
+,,184,OOT-Ctr,Land,,OOT-OrangeOrchardTerraces,,,Active
+,,185,FigOrchard,Land,,18U,,,Active
+,,186,VineYard,Land,,18U,,,Active
+,,187,EiraField,Land,,18U,,,Active
+,,188,NoraField,Land,,18U,,,Active
+,,189,HortasDoVale-East,Land,,19U,,,Active
+,,190,LamaGardensSouthCenter,Land,,18U,,,Active
+,,191,HortasDoVale-West,Land,,19U,,,Active
+,,192,CarobOrchard,Land,,23V,,,Active
+,,193,WaltsMilpasTestPlot,Land,,W&NhomeGarden,,,Active
+,,194,PastoralLowLands,Land,,18U,,,Active
+,,195,"bed N° 7",Land,,HortasDoVale-West,,,Active
+,,196,"bed N° 13",Land,,HortasDoVale-West,,,Active
+,,197,"bed N° 10",Land,,HortasDoVale-West,,,Active
+,,198,"Paddock NS-01",Land,"Flags
+          
+              Monitor",23V,,,Active
+,,199,W&NhomeGarden,Land,,29Vb,,,Active
+,,204,Nursery,Structure,,HortasDoVale-West,,,Active
+,,201,nurse,Land,,,,,Active
+,,202,Greenhouse,Land,,,,,Active
+,,203,"SGH 1-2",Land,,,,,Active
+,,1,"CarobOrchard trees",Plant,,,,,Active
+,,3,"2019 WaltsMilpasTestPlot Corn/Beans/Squash",Plant,,,,WaltsMilpasTestPlot,Active
+,,4,"2019 PastoralLowLands OrganicPastureMix (from FertiPrado)",Plant,,,,PastoralLowLands,Active
+,,5,"2019 NoraField Napier Grasx, Sugarcane, Swiss Chard, Madeira Banana",Plant,,,,NoraField,Active
+,,7,"2010  MixedWineGrapes",Plant,,,,,Active
+,,8,"2010 VineYard MixedWineGrapes",Plant,,,,VineYard,Active
+,,9,"DF Tractor",Equipment,,,Vehicles,,Active
+,,10,Vehicles,Group,,,,,Active
+,,11,DumpTrailer,Equipment,,,Vehicles,,Active
+,,12,"2019 bed N° 13 tomato ACE 55",Plant,,,,"bed N° 13",Active
+,,13,"tomato bush",Plant,,,,"bed N° 13",Active
+,,14,"2021 Autumn HortasDoVale-West garlic - N.D.",Plant,,,,"bed N° 7",Active
+,,15,"2021 Autumn tomato del benach/ st pierre",Plant,,,,"bed N° 10",Active
+,,16,"Sheep herd",Animal,,,"Test Herd","Paddock NS-01",Active
+,,17,"Test Sheep Flock",Animal,,,"Test Herd","Paddock NS-01",Active
+,,18,"Test Herd",Group,,,,"Paddock NS-01",Active
+,,19,"NoraField Milpas",Plant,"Flags
+          
+              Needs review",,"Extensive Crops",NoraField,Active
+,,20,"Extensive Crops",Group,,,,,Active
+,,21,quahog_1,Sensor,,,,19U,Active
+,,22,Sparky,Animal,,"Test Sheep Flock","Test Herd","Paddock NS-01",Active
+,,23,"2019  EiraField Apples Anna",Plant,,,,EiraField,Active
+,,24,"2019 EiraField Apples  Jersey Mac",Plant,,,,EiraField,Active
+,,25,"2019 EiraField Apples Golden Dorsett",Plant,,,,EiraField,Active
+,,26,"2019 EiraField Apples Royal Gala Riscada",Plant,,,,EiraField,Active
+,,27,"2019 EiraField Apples Fuji",Plant,,,,EiraField,Active
+,,28,"2019 EiraField Apples Pink Lady TM",Plant,,,,EiraField,Active
+,,29,"2019 EiraField Apples Granny Smith",Plant,,,,EiraField,Active
+,,30,"2020 EiraField Apples Anna",Plant,,,,EiraField,Active
+,,31,"2019  Winter greens mix: Polytunnel center rows",Plant,,,,HortasDoVale-West,Active
+,,32,"2019 EiraField Pears Rocha",Plant,,,,EiraField,Active
+,,33,"2019 EiraField Pears Nachi",Plant,,,,EiraField,Active
+,,34,"2019 LamaGardensSouthCenter Pistachio Trees",Plant,,,,LamaGardensSouthCenter,Active
+,,35,"2019 W&NhomeGarden Pistachio Trees",Plant,,,,W&NhomeGarden,Active
+,,36,"2019 EiraField Pears Comice",Plant,,,,EiraField,Active
+,,37,"2019 EiraField Pears Nashi-Kumoi",Plant,,,,EiraField,Active
+,,38,"2019 EiraField Pears Nachi",Plant,,,,EiraField,Active
+,,39,"2020 EiraField Pears Comice",Plant,,,,,Active
+,,40,"2020 EiraField Pears Elliot",Plant,,,,,Active
+,,41,"2020 EiraField Apples TBD?",Plant,,,,,Active
+,,42,"2020 EiraField Apples Pixie",Plant,,,,,Active
+,,43,"2020 EiraField Apples TBD?",Plant,,,,,Active
+,,44,"2019 EiraField Peach Flordastar",Plant,,,,EiraField,Active
+,,45,"2019 EiraField Plums RedBeauty (Vermelha)",Plant,,,,EiraField,Active
+,,46,"2019 EiraField Peaches Metheley",Plant,,,,EiraField,Active
+,,47,"2019 EiraField Peaches SantaRosa",Plant,,,,EiraField,Active
+,,48,"2019 EiraField Plums Pioneer",Plant,,,,EiraField,Active
+,,49,"2019 EiraField Plums BlackAmber (preto)",Plant,,,,EiraField,Active
+,,50,"2020 EiraField Plums SãoBras",Plant,,,,,Active
+,,51,"2020 EiraField Peaches Paraguaios",Plant,,,,,Active
+,,52,"2020 EiraField Peaches Florida",Plant,,,,,Active
+,,53,"2020 EiraField Plums Metheley",Plant,,,,,Active
+,,54,"2019 EiraField Plums Friar (preta)",Plant,,,,EiraField,Active
+,,55,"2019 EiraField Plums BlackAngelino (preto/ amarelo dentro)",Plant,,,,EiraField,Active
+,,56,"2019 EiraField Plums ElephantHeart",Plant,,,,EiraField,Active
+,,57,"2019 EiraField Plums GoldJapan (amarela)",Plant,,,,EiraField,Active
+,,58,"2019 EiraField Plums Sungold",Plant,,,,EiraField,Active
+,,59,"2019 EiraField Nectarines Fantasia",Plant,,,,EiraField,Active
+,,60,"2019 EiraField Persimmons Charon",Plant,,,,EiraField,Active
+,,61,"2019 EiraField Persimmons Fau-Fau",Plant,,,,EiraField,Active
+,,62,"2019 EiraField Persimmons CoroaDeRei",Plant,,,,EiraField,Active
+,,63,"2019 EiraField Apricots Bulida",Plant,,,,EiraField,Active
+,,64,"2019 EiraField Apricots Bulida",Plant,,,,EiraField,Active
+,,65,"2019 EiraField Apricots A35",Plant,,,,EiraField,Active
+,,66,"2019 EiraField Apricots A35",Plant,,,,EiraField,Active
+,,67,"2019 EiraField Apricots A35",Plant,,,,EiraField,Active
+,,68,"2020 EiraField Plums AutumnGiant",Plant,,,,,Active
+,,69,"2020 EiraField Plums BlackStar",Plant,,,,,Active
+,,70,"2020 EiraField Plums BlackGold",Plant,,,,,Active
+,,71,"2020 EiraField Nectarines SnowQueen",Plant,,,,,Active
+,,72,"2020 EiraField Apricots Mogador",Plant,,,,,Active
+,,73,"2020 EiraField Apricots Mogador",Plant,,,,,Active
+,,74,"2020 EiraField Apricots Mogador",Plant,,,,,Active
+,,75,"2020 EiraField Apricots Mogador",Plant,,,,,Active
+,,76,"2020 EiraField Apricots TBD?",Plant,,,,,Active
+,,77,"2019 HortasDoVale-West Broccoli WaltTest",Plant,,,,,Active
+,,78,"2019 Alface week 45",Plant,,,seedlings,Nursery,Active
+,,79,seedlings,Group,,,,,Active
+,,80,"2019 Alface week 41",Plant,,,seedlings,Nursery,Active
+,,81,"2019 Couve week 43",Plant,,,seedlings,Nursery,Active
+,,82,"2019 Anetho week 43",Plant,,,seedlings,Nursery,Active
+,,83,"2019 Salsa week 43",Plant,,,seedlings,Nursery,Active
+,,84,"2019 Pepino week 43",Plant,,,seedlings,Nursery,Active
+,,85,"2019 Corgete week 43",Plant,,,seedlings,Nursery,Active
+,,86,"2019 Cerfolho week 43",Plant,,,seedlings,Nursery,Active
+,,87,"2019 Brocolos week 43",Plant,,,seedlings,HortasDoVale-West,Active
+,,88,"2019 Couve week 43",Plant,,,seedlings,HortasDoVale-West,Active
+,,90,"2019 Funcho week 43",Plant,,,seedlings,Nursery,Active
+,,92,"2019 Manjericão week 43",Plant,,,seedlings,Nursery,Active
+,,93,"2019 Coentros week 43",Plant,,,seedlings,Nursery,Active
+,,94,"2019 Alface week 45",Plant,,,seedlings,Nursery,Active
+,,95,"2019 Alface week 45",Plant,,,seedlings,Nursery,Active
+,,96,"2019 Couve week 45",Plant,,,seedlings,HortasDoVale-West,Active
+,,97,"2019 Couve week 43",Plant,,,seedlings,Nursery,Active
+,,98,"2019 Couve week 45",Plant,,,seedlings,HortasDoVale-West,Active
+,,99,"2019 Couve week 45",Plant,,,seedlings,HortasDoVale-West,Active
+,,100,"2021 Autumn Acelga",Plant,,,seedlings,Nursery,Active
+,,102,"2019 Alho frances week 49",Plant,,,seedlings,Nursery,Active
+,,103,"2019 Espinafres week 49",Plant,,,seedlings,HortasDoVale-West,Active
+,,104,"2019 Espinafres week 49",Plant,,,seedlings,HortasDoVale-West,Active
+,,105,"2019 Couve week 49",Plant,,,seedlings,HortasDoVale-West,Active
+,,106,"2019 Alface week 49",Plant,,,seedlings,HortasDoVale-West,Active
+,,107,"2019 Alface week 49",Plant,,,seedlings,HortasDoVale-West,Active
+,,108,"2019 Aipo week 49",Plant,,,seedlings,Nursery,Active
+,,109,"2019 Betarraba week 49",Plant,,,seedlings,HortasDoVale-West,Active
+,,110,"2019 Betarraba week 49",Plant,,,seedlings,HortasDoVale-West,Active
+,,111,"2019 Betarraba week 49",Plant,,,seedlings,HortasDoVale-West,Active
+,,112,"2019 Betarraba week 49",Plant,,,seedlings,HortasDoVale-West,Active
+,,113,"2019 Alho frances 1824",Plant,,,,,Active
+,,114,"2019 Couve week 45",Plant,,,seedlings,Nursery,Active
+,,115,Substrate,Equipment,,,seedlings,Nursery,Active
+,,116,"Worm tea",Equipment,,,seedlings,Nursery,Active
+,,117,"Rock dust",Equipment,,,seedlings,Nursery,Active
+,,118,"2019 Cenoura week 50",Plant,,,seedlings,HortasDoVale-West,Active
+,,119,"2019 Salsa week 50",Plant,,,seedlings,Nursery,Active
+,,120,"2019 Salsa week 50",Plant,,,seedlings,Nursery,Active
+,,121,"2019 Couve week 50",Plant,,,seedlings,HortasDoVale-West,Active
+,,122,"2019 Rucula week 50",Plant,,,seedlings,HortasDoVale-West,Active
+,,123,"2019 Canonigos week 50",Plant,,,seedlings,HortasDoVale-West,Active
+,,124,"2019 Rucula week 50",Plant,,,seedlings,HortasDoVale-West,Active
+,,125,"2019 Couve week 50",Plant,,,seedlings,HortasDoVale-West,Active
+,,126,"2019 Brocolos week 50",Plant,,,seedlings,HortasDoVale-West,Active
+,,127,"2019 Funcho week 50",Plant,,,seedlings,HortasDoVale-West,Active
+,,128,"2019 Agrião week 50",Plant,,,seedlings,Nursery,Active
+,,129,"2019  Tomatoes week 49",Plant,,,seedlings,Nursery,Active
+,,130,"2019 Alho frances week 51",Plant,,,,Nursery,Active
+,,132,"2020 Alface week 2",Plant,,,seedlings,HortasDoVale-West,Active
+,,133,"2020 Alface week 2",Plant,,,seedlings,HortasDoVale-West,Active
+,,134,"2020 Alface week 2",Plant,,,seedlings,HortasDoVale-West,Active
+,,135,"2020 Alface week 2",Plant,,,,Nursery,Active
+,,136,"2020 Tomatoes week 3",Plant,,,seedlings,Nursery,Active
+,,137,"2020 Tomatoes week 3",Plant,,,seedlings,Nursery,Active
+,,138,"2020 Tomatoes week 3",Plant,,,seedlings,Nursery,Active
+,,139,"2020 Tomatoes week 3",Plant,,,seedlings,Nursery,Active
+,,140,"2020 Tomatoes week 3",Plant,,,seedlings,Nursery,Active
+,,141,"2020 Tomatoes week 3",Plant,,,seedlings,Nursery,Active
+,,142,"2020 Salsa week 3",Plant,,,seedlings,Nursery,Active
+,,143,"2020 Salsa week 3",Plant,,,seedlings,Nursery,Active
+,,144,"2020 Alface week 2",Plant,,,seedlings,HortasDoVale-West,Active
+,,146,"2020 Berinjela week 5",Plant,,,seedlings,Nursery,Active
+,,147,"2020 Berinjela week 5",Plant,,,seedlings,Nursery,Active
+,,148,"2020 Berinjela week 5",Plant,,,seedlings,Nursery,Active
+,,149,"2020 Pimento week 5",Plant,,,seedlings,Nursery,Active
+,,150,"2020 Pimento week 5",Plant,,,seedlings,Nursery,Active
+,,151,"2020 Funcho week 5",Plant,,,seedlings,Nursery,Active
+,,152,"2020 Manjericão week 5",Plant,,,seedlings,Nursery,Active
+,,153,"2020 Endro week 5",Plant,,,seedlings,Nursery,Active
+,,154,"2020 Alface week 5",Plant,,,seedlings,Nursery,Active
+,,155,"2020 Couve week 5",Plant,,,seedlings,Nursery,Active
+,,156,"2020 Alface week 5",Plant,,,seedlings,Nursery,Active
+,,157,"2020 Alface week 5",Plant,,,seedlings,Nursery,Active
+,,158,"2020 Alface week 5",Plant,,,seedlings,Nursery,Active
+,,159,"2020 Alface week 5",Plant,,,seedlings,Nursery,Active
+,,160,"2020 Couve week 5",Plant,,,seedlings,Nursery,Active
+,,161,"2020 Couve week 5",Plant,,,seedlings,Nursery,Active
+,,162,"2020 Couve week 5",Plant,,,seedlings,Nursery,Active
+,,163,"2020 Brocolos week 5",Plant,,,seedlings,Nursery,Active
+,,164,"2020 Couve flor week 5",Plant,,,seedlings,Nursery,Active
+,,165,"itsybitsy m4 BME280 wifi",Sensor,,,,,Active
+,,166,Lucio_v1,Sensor,"Flags
+          
+              Priority",,,,Active
+,,167,"2021 Autumn SGH 1-2 Coentros",Plant,,,,,Active
