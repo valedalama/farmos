@@ -1,0 +1,547 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/hyper-schema",
+    "$id": "https://vdl.farmos.net/api/schema",
+    "allOf": [
+        {
+            "$ref": "https://jsonapi.org/schema#/definitions/success"
+        },
+        {
+            "type": "object",
+            "links": [
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Animal assets",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/asset/animal/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/asset--animal/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Equipment assets",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/asset/equipment/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/asset--equipment/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Group assets",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/asset/group/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/asset--group/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Land assets",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/asset/land/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/asset--land/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Plant assets",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/asset/plant/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/asset--plant/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Sensor assets",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/asset/sensor/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/asset--sensor/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Structure assets",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/asset/structure/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/asset--structure/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Asset types",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/asset_type/asset_type/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/asset_type--asset_type/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Data stream types",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/data_stream_type/data_stream_type/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/data_stream_type--data_stream_type/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Basic Data streams",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/data_stream/basic/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/data_stream--basic/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Entity browser entities",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/entity_browser/entity_browser/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/entity_browser--entity_browser/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Flag entities",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/flag/flag/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/flag--flag/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Id tag type entities",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/tag_type/tag_type/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/tag_type--tag_type/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Land type entities",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/land_type/land_type/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/land_type--land_type/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Map type entities",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/map_type/map_type/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/map_type--map_type/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Layer style entities",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/layer_style/layer_style/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/layer_style--layer_style/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Map behavior entities",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/map_behavior/map_behavior/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/map_behavior--map_behavior/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Structure type entities",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/structure_type/structure_type/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/structure_type--structure_type/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Files",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/file/file/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/file--file/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Log types",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/log_type/log_type/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/log_type--log_type/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Activity logs",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/log/activity/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/log--activity/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Birth logs",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/log/birth/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/log--birth/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Harvest logs",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/log/harvest/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/log--harvest/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Input logs",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/log/input/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/log--input/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Maintenance logs",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/log/maintenance/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/log--maintenance/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Observation logs",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/log/observation/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/log--observation/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Seeding logs",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/log/seeding/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/log--seeding/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Transplanting logs",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/log/transplanting/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/log--transplanting/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Material quantities",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/quantity/material/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/quantity--material/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Standard quantities",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/quantity/standard/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/quantity--standard/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Quantity types",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/quantity_type/quantity_type/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/quantity_type--quantity_type/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Vocabularies",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/taxonomy_vocabulary/taxonomy_vocabulary/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/taxonomy_vocabulary--taxonomy_vocabulary/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Animal types taxonomy terms",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/taxonomy_term/animal_type/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/taxonomy_term--animal_type/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Crop family taxonomy terms",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/taxonomy_term/crop_family/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/taxonomy_term--crop_family/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Log categories taxonomy terms",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/taxonomy_term/log_category/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/taxonomy_term--log_category/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Material types taxonomy terms",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/taxonomy_term/material_type/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/taxonomy_term--material_type/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Plant types taxonomy terms",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/taxonomy_term/plant_type/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/taxonomy_term--plant_type/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Seasons taxonomy terms",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/taxonomy_term/season/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/taxonomy_term--season/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Units taxonomy terms",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/taxonomy_term/unit/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/taxonomy_term--unit/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Users",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/user/user/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/user--user/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Roles",
+                    "targetMediaType": "application/vnd.api+json",
+                    "targetSchema": "https://vdl.farmos.net/api/user_role/user_role/collection/schema",
+                    "templatePointers": {
+                        "instanceHref": "/links/user_role--user_role/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                }
+            ]
+        }
+    ]
+}
